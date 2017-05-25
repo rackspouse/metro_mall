@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+.outer
+{
+	margin:auto;
+	width:1200px;
+	text-align:center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+.tabs a
+{
+	text-decoration:none;
+}
+
+.header
+{
+	padding-top:20px;
+	width:1200px;
+	height:90px;
+	background:#8DC229;
+	font-size:50px;
+}
+
+.tabs
+{
+	padding-top:8px;
+	border-top:#693 3px solid;
+	width:1200px;
+	height:50px;
+	background:#8DC229;
+}
+
+.content
+{
+	margin:auto;
+	margin-bottom:14px;
+	margin-top:8px;
+	width:1200px;
+}
+
+.table
+{
+	word-wrap:break-word;
+	margin:auto;
+	font-family:"Times New Roman";
+}
+
+.table td
+{
+	height:70px;
+	width:80px;
+	word-break:break-all;
+	border:#F00 solid thin;
+}
+
+.addbox
+{
+	width:500px;
+	margin:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#CCC;
+	border:#663 solid;
+	border-radius:12px 12px 12px 12px;
+}
+
+.addboxone
+{
+	width:500px;
+	height:40px;
+	padding-top:20px;
+}
+
+.title
+{
+	height:40px;
+	width:250px;
+	float:left;
+}
+
+.titlebox
+{
+	height:40px;
+	width:250px;
+	float:left;
+}
+
+.titletextbox
+{
+	width:200px;
+	height:20px;
+	border-radius:5px;
+	border:thin solid #093;
+}
+
+.titletextarea
+{
+	width:200px;
+	height:40px;
+	border-radius:5px;
+	border:thin solid #093;
+}
+
+.addboxtwo
+{
+	width:500px;
+	height:40px;
+	padding-top:20px;
+}
+
+.description
+{
+	height:40px;
+	width:250px;
+	float:left;
+}
+
+.descriptionbox
+{
+	height:40px;
+	width:210px;
+	float:left;
+	padding-left:40px;
+}
+
+.descriptiontextarea
+{
+	width:170px;
+	height:70px;
+}
+
+.addboxthree
+{
+	width:500px;
+	height:40px;
+	padding-top:20px;
+}
+
+.button
+{
+	font-weight:bolder;
+	background:#7C9D57;
+	width:60px;
+	height:22px;
+	margin:auto;
+	padding-top:1px;
+}
+
+.footer
+{
+	width:1200px;
+	height:50px;
+	background:#8DC229;
+	font-size:24px;
+}
+
+.contents_courses
+{
+	margin-bottom:14px;
+	margin-top:8px;
+	width:1200px;
+	height:370px;
+}
+
+.addbox_courses
+{
+	width:500px;
+	height:370px;
+	margin:auto;
+	background:#CCC;
+	border:#663 solid;
+	border-radius:12px 12px 12px 12px;
+}
+
+.contents_contactus
+{
+	margin-bottom:14px;
+	margin-top:8px;
+	width:1200px;
+	height:460px;
+}
+
+.addbox_contactus
+{
+	width:500px;
+	height:460px;
+	margin:auto;
+	background:#CCC;
+	border:#663 solid;
+	border-radius:12px 12px 12px 12px;
+}
+
+.aboutus_tb
+{
+	width:850px;
+	margin:auto;
+	background:#FFF;
+	text-align:justify;
+	padding:10px;
+}
+
+.aboutus_tb_title
+{
+	height:30px;
+	width:800px;
+}
+
+.aboutus_tb_desc
+{
+	width:850px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.aboutus_tb_button
+{
+	width:50px;
+	height:20px;
+	padding-left:790px;
+	margin:5px;
+}
+
+.aboutus_addbx
+{
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#CCC;
+	border:#663 solid;
+	border-radius:12px 12px 12px 12px;
+}
+
+.aboutus_addbx1
+{
+	width:550px;
+	height:20px;
+	margin:auto;
+	padding:20px;
+	padding-left:10px;
+}
+
+.aboutus_ttl
+{
+	width:100px;
+	height:20px;
+	float:left;
+}
+
+.aboutus_ttlbx
+{
+	width:270px;
+	height:20px;
+	float:left;
+	margin:auto;
+}
+
+.aboutus_ttltxtbx
+{
+	width:260px;
+	height:20px;
+	float:left;
+	border:#0C6 solid thin;
+	border-radius:5px;
+}
+
+.aboutus_addbx2
+{
+	width:550px;
+	height:240px;
+	margin:auto;
+	padding:10px;
+}
+
+.aboutus_descbx
+{
+	width:270px;
+	height:40px;
+	float:left;
+}
+
+.aboutus_desctxtarea
+{
+	width:420px;
+	height:250px;
+	float:left;
+	border:#0C6 solid thin;
+	border-radius:5px;
+}

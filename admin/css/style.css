@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.outer
+{
+	margin:auto;
+	width:1000px;
+	text-align:center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+.firstdiv
+{
+	width:1000px;
+	height:100px;
+	text-decoration:underline;
+	font-size:54px;
+	
+}
+
+.seconddiv
+{
+	width:1000px;
+	height:220px;
+	margin:auto;
+	
+}
+
+.loginbox
+{
+	margin:auto;
+	width:370px;
+	height:220px;
+	background:#FFF;
+}
+
+.loginboxfirst
+{
+	width:370px;
+	height:75px;
+	padding-top:20px;
+
+}
+.username
+{
+	float:left;
+	width:150px;
+	height:75px;
+}
+
+.usernamebox
+{
+	float:left;
+	width:150px;
+	height:75px;
+}
+
+.loginboxsecond
+{
+	width:370px;
+	height:75px;
+}
+
+.password
+{
+	float:left;
+	height:75px;
+	width:150px;
+}
+
+.passwordbox
+{
+	float:left;
+	width:150px;
+	height:75px;
+}
+
+.lb3
+{
+	width:370px;
+	height:50px;
+	padding-bottom:20px;
+}
+
+.loginbutton
+{
+	padding-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:70px;
+	height:25px;
+	background:#696;
+}
+.thirddiv
+{
+	width:1000px;
+	height:100px;
+	padding-top:10px;
+	font-size:18px;
+}

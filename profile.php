@@ -2,7 +2,7 @@
 
 if($_POST['update']!='')
 {
-     $upd = "update users set Gender = '".$_POST['gender']."',Name = '".$_POST['name']."',Contact_no = '".$_POST['contactno']."',Email = '".$_POST['email']."',Password = '".$_POST['password']."',Address = '".$_POST['address']."' where ID ='".$_SESSION['ADMINID']."'";
+     $upd = "update users set Gender = '".$_POST['gender']."',Name = '".$_POST['name']."',Contact_no = '".$_POST['contactno']."',Email = '".$_POST['email']."',Password = '".$_POST['password']."',Address = '".$_POST['address']."' where ID ='".$_SESSION['USERID']."'";
         mysql_query($upd) or die(); 
 }
 
@@ -29,7 +29,7 @@ Metro Mall
         	<div class="center_profile_right_one">
 
             	<?php
-                    $sel = "select * from users where ID = '".$_SESSION['ADMINID']."'";
+                    $sel = "select * from users where ID = '".$_SESSION['USERID']."'";
                     $exe  = mysql_query($sel) or die();
                     $fetch=mysql_fetch_array($exe);
                      echo $fetch['Gender'];?>&nbsp;<?php echo $fetch['Name'];
@@ -38,7 +38,7 @@ Metro Mall
             <div class="center_profile_right_two">
 
                 <?php
-                    $sel = "select * from users where ID = '".$_SESSION['ADMINID']."'";
+                    $sel = "select * from users where ID = '".$_SESSION['USERID']."'";
                     $exe  = mysql_query($sel) or die();
                     $fetch=mysql_fetch_array($exe);
                     if(isset($_POST['edituser'])=='')

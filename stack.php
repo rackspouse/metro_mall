@@ -1,11 +1,11 @@
-
+  
 
 <div class="center_index_left">
       
       <?php
-        if($_SESSION['ADMINID']!="")
+        if($_SESSION['USERID']!="")
         {
-            $sel = "select * from users where ID = '".$_SESSION['ADMINID']."'";
+            $sel = "select * from users where ID = '".$_SESSION['USERID']."'";
             $exe  = mysql_query($sel) or die();
             $fetch=mysql_fetch_array($exe);
       ?>

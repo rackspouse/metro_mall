@@ -16,7 +16,7 @@ if($_POST['title']!="")
 {
 	if($_GET['EID'] != "")
 	{
-		$upd = "update services set Title = '".$_POST['title']."',Description = '".$_POST['description']."',Image = '".$_POST['image']."' where ID = '".$_GET['EID']."'";
+		$upd = "update services set Title = '".$_POST['title']."',Description = '".$_POST['description']."',Image = '".$pname."' where ID = '".$_GET['EID']."'";
 		mysql_query($upd) or die();
 	}
 	else

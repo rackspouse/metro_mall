@@ -17,6 +17,21 @@
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
+.inside_heading
+{
+	width:71px;
+	height:50px;
+	padding-left: 13px;
+	padding-top: 5px;
+	color:#FFF;
+	background: #000;
+	font-size:25px;
+	float: right;
+	margin-right: 90px;
+	margin-top: 15px;
+	border-radius: 300px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
 .top_tabs
 {
 	margin-right: 175px;
@@ -413,7 +428,12 @@
 	word-wrap:break-word;
 	height:150px;
 }
-
+.services_blockimg2
+{
+	width:auto;
+	word-wrap:break-word;
+	height:150px;
+}
 .services_blockdata
 {
 	width:auto;

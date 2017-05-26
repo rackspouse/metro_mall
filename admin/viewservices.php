@@ -25,7 +25,7 @@ $exe  = mysql_query($sel) or die();
 <html>
 <head>
 <meta charset="utf-8">
-<title>View Gallery
+<title>View Services
 
 </title>
 
@@ -36,7 +36,7 @@ $exe  = mysql_query($sel) or die();
 <div class = "outer">
 	<?php include('header.php');?>
     
-     <h2> View Gallery</h2>
+     <h2> View Services</h2>
     
     <div class="content">
     	<table border="1"  width="500" cellpadding="10" class="table">

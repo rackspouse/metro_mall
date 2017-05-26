@@ -27,7 +27,7 @@ Metro Mall
 			{
 			?>
             <a href="servicesdescription.php?SID=<?php echo $fetch['ID'];?>"><div class="services_block">
-            	<div class="services_blockimg">
+            	<div class="services_blockimg2">
                 	<img src="serviceimages/<?php echo $fetch['Image'];?>" height = 150px width = 100%>
                 </div>
                 <div class="services_blockdata">

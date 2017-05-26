@@ -18,12 +18,7 @@
             ?>
 <div class="header">
 	<div class="top_heading">
-    Metro Mall
-    <?php
-        if($_SESSION['USERID']!="")
-        {
-          ?>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Metro Mall&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="inside_heading"><img src="images/carticon_yellow.png" height="40px" width="40px">
     <?php 
       $sel = "select * from users where ID = '".$_SESSION['USERID']."'";
@@ -38,10 +33,6 @@
             { $num++;}
       echo $num
       ?></div>
-
-      <?php
-        }
-      ?>
     </div>
     
     <div class="top_tabs">
@@ -54,7 +45,8 @@
         {
           ?>
           <a href="profile.php">Profile</a> &nbsp;&nbsp;|&nbsp;&nbsp;  
-          <?php
+          <?php 
+            
         }
       ?>
         <a href="index.php" onClick="">Home Page</a> &nbsp;&nbsp;|&nbsp;&nbsp; 

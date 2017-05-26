@@ -44,7 +44,7 @@ $exe  = mysql_query($sel) or die();
 <div class = "outer">
 	<?php include('header.php');?>
    
-    <h2> View Courses</h2>
+    <h2> View Category</h2>
     
     <form method="post" action="">
      <select name="category">
